@@ -8,13 +8,17 @@ let message = document.querySelector(".message");
 button.onclick = function() {
     console.log("button check");
 let hair = haircolor.value;
- console.log("haircolor");
+ console.log(hair);
  let color = favoritecolor.value;
   console.log("favoritecolor");
 
 if(hair==="brown" && color ==="pink"){
     console.log("cookie")
-    message.innerHTML = "you like cookies"
+ message.innerHTML = "you like cookies"
+
+
+
+ 
   } else if (hair==="brown" && color ==="pink"){
     console.log("cookie")
     message.innerHTML = "you like cookies"
