@@ -12,11 +12,12 @@ let hair = haircolor.value;
  let color = favoritecolor.value;
   console.log("favoritecolor");
 
+  beans.style.display = none;
 if(hair==="brown" && color ==="pink"){
     console.log("cookie")
  message.innerHTML = "you like cookies"
 
-beans.style.display = "none";
+
  
   } else if (hair==="brown" && color ==="pink"){
     console.log("cookie")
